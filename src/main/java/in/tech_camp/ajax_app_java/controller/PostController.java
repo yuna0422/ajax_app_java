@@ -25,6 +25,7 @@ public class PostController {
     model.addAttribute("postForm", new PostForm());
     return "posts/index";
   }
+  aseih
 
   @PostMapping("/posts")
   public ResponseEntity<PostEntity> savePost(@ModelAttribute("postForm") PostForm form){
